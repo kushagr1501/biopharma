@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# Redirect old plasma products url
+RewriteRule ^plasma-products/?$ products.html [R=301,L,NC]
+
 
 # --- Existing rules (paused while maintenance block above is active) ---
 RewriteCond %{REQUEST_FILENAME} !-f
