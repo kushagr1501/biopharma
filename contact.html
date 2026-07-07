@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | Plasma Hetero
+    </title>
+    <meta name="description"
+        content="Hetero CDMO: 30+ years of pharmaceutical excellence with 38 state-of-the-art facilities serving 145+ countries. Integrated CDMO services from discovery to commercialization with 25,000+ employees worldwide.">
+    <meta name="keywords"
+        content="CDMO, contract development manufacturing, pharmaceutical services, drug development, API manufacturing, hetero labs, pharmaceutical outsourcing, clinical trials, commercial manufacturing, global pharma">
+
+    <!-- FavIcon -->
+    <link rel="Icon" href="images/LOGO.svg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        .error {
+            color: red;
+            font-size: 12px;
+            text-wrap: nowrap;
+        }
+
+        /* default input style */
+        input {
+            font-weight: 400;
+            transition: font-weight 0.2s ease;
+        }
+
+        /* when user enters text */
+        input:not(:placeholder-shown) {
+            font-weight: 600;
+            /* or bold */
+        }
+
+        /* select bold when selected */
+        select:valid {
+            font-weight: 600;
+            color: #000 !important;
+        }
+
+        /* default select normal */
+        select {
+            font-weight: 400;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header" id="header">
+            <nav class="navbar navbar-expand-lg custom-navbar">
+                <div class="container">
+                    <div class="row w-100 align-items-center">
+
+                        <!-- Logo -->
+                        <div class="col-sm-2 col-3">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="images/hetero-logos.png" alt="Hetero Logo" class="logo">
+                            </a>
+                        </div>
+                        <!-- Menu -->
+                        <div class="col-9 d-block d-xl-none">
+                            <div class="d-flex justify-content-end">
+                                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-10">
+                            <div class="menu text-end">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li>
+                                        <a href="#">
+                                            Plasma Fractionation
+                                            <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <ul class="smlmenu">
+
+                                            <li><a href="plasma.html">Manufacturing Process</a></li>
+                                            <li><a href="products.html">Our Products</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                                    <li><a href="career.html">Careers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+        <!-- Mobile Side Navigation -->
+        <div class="mobile-sidenav" id="mobileSidenav">
+            <div class="sidenav-content">
+                <div class="sidenav-header">
+                    <button class="close-btn" id="closeSidenav">&times;</button>
+                </div>
+
+                <ul class="mobile-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="mobile-dropdown">
+                        <a href="#" class="mobile-dropdown-toggle">Plasma Fractionation <i
+                                class="fas fa-chevron-down arrow"></i></a>
+                        <div class="mobile-submenu">
+
+                            <a href="plasma.html">Manufacturing Process</a>
+                            <a href="products.html">Our Products</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                    <li><a href="career.html">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Overlay for mobile menu -->
+        <div class="mobile-overlay" id="mobileOverlay"></div>
+
+
+        <!-- Banner -->
+
+        <div class="innerbanner" style="background-image: url(images/innerbanner/contact.png);">
+            <!-- Large Curved Circle Overlay (Left) -->
+            <div class="circle-overlay-large"></div>
+
+            <!-- Small Decorative Circle (Right) -->
+            <div class="circle-design-right">
+                <div class="circle-inner"></div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contact-collection">
+            <div class="container-fluid">
+                <div class="plasma-row">
+                    <!-- left IMAGE -->
+                    <div class="contact-right">
+                        <img src="images/contact-right.png" alt="Plasma Testing">
+                    </div>
+                    <!-- right CONTENT -->
+                    <div class="contact-left">
+                        <div class="contact-left-content">
+
+                            <div class="row contact-row align-items-start">
+                                <div class="col-md-3 col-12 contact-label">
+                                    Location
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <div class="contact-value">
+                                        <p><b>Hetero Biopharma Limited</b></p>
+                                        <p>
+                                            Survey No. 288, 290, 330, 330AA, 334,
+                                            <br class="no-break">335, Penjerla Village, Kothur Mandal,
+                                            <br class="no-break">
+                                            Rangareddy Dist. – 509 228,
+                                            <br class="no-break">
+                                            Telangana, INDIA.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row contact-row align-items-start">
+                                <div class="col-md-3 col-12 contact-label">
+                                    Email
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <div class="contact-value">
+
+                                        <p>
+                                            <a href="mailto:contact.hpspl@hetero.com">
+                                                contact.hpspl@hetero.com
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row contact-row align-items-start">
+                                <div class="col-md-3 col-12 contact-label">
+                                    Phone
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <div class="contact-value">
+                                        <p>08548250400</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <div class="contact-left-img">
+                            <img src="images/contact-img.png" alt="" width="100%">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <h2 class="section-title">
+                            <span class="title-dark">Every conversation opens new possibilities.</span>
+                            <span class="title-accent">Start yours today.</span>
+                        </h2>
+                        <p>Connect with our experts to discuss product inquiries, partnership opportunities, or how we
+                            can support your critical care needs. Let’s work together.</p>
+                        <form class="contact-form py-4 text-start" id="contact_form" name="contact">
+                            <div class="row g-3">
+                                <!-- First Name -->
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">First name<span
+                                            class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="firstName" name="first_name"
+                                        placeholder="Enter first name" required>
+                                </div>
+
+                                <!-- Last Name -->
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last name<span
+                                            class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="lastName" name="last_name"
+                                        placeholder="Enter last name" required>
+                                </div>
+                                <!-- Company Name -->
+                                <div class="col-md-6">
+                                    <label for="company" class="form-label">Company Name<span
+                                            class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="company" name="company"
+                                        placeholder="Enter company name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="country" class="form-label">Country</label>
+                                    <input type="text" class="form-control" id="country" name="country"
+                                        placeholder="Enter country name" readonly>
+                                </div>
+                                <!-- Business Email -->
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Business email<span
+                                            class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Enter business email" required>
+                                </div>
+
+                                <!-- Phone Number -->
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label">Phone number<span
+                                            class="text-danger">*</span></label>
+                                    <div class="phone-input-wrapper">
+                                        <div class="phone-input-group">
+                                            <select name="countryCode" class="form-select phone-dropdown valid"
+                                                id="inputGroupSelect01" aria-invalid="false"
+                                                style="border-right: hidden;">
+                                                <option data-countrycode="IND" value="+91" selected="selected">IND (+91)
+                                                </option>
+                                                <!-- <option data-countryCode="US" value="1">USA (+1)</option> -->
+                                                <optgroup label="Other countries">
+                                                    <option value="1">USA (+1)</option>
+                                                    <option value="7">RUS (+7)</option>
+                                                    <option value="20">EGY (+20)</option>
+                                                    <option value="27">ZAF (+27)</option>
+                                                    <option value="30">GRC (+30)</option>
+                                                    <option value="31">NLD (+31)</option>
+                                                    <option value="32">BEL (+32)</option>
+                                                    <option value="33">FRA (+33)</option>
+                                                    <option value="34">ESP (+34)</option>
+                                                    <option value="36">HUN (+36)</option>
+                                                    <option value="39">ITA (+39)</option>
+                                                    <option value="40">ROU (+40)</option>
+                                                    <option value="41">CHE (+41)</option>
+                                                    <option value="43">AUT (+43)</option>
+                                                    <option value="44">GBR (+44)</option>
+                                                    <option value="45">DNK (+45)</option>
+                                                    <option value="46">SWE (+46)</option>
+                                                    <option value="47">NOR (+47)</option>
+                                                    <option value="48">POL (+48)</option>
+                                                    <option value="49">DEU (+49)</option>
+
+                                                    <option value="60">MYS (+60)</option>
+                                                    <option value="61">AUS (+61)</option>
+                                                    <option value="62">IDN (+62)</option>
+                                                    <option value="63">PHL (+63)</option>
+                                                    <option value="64">NZL (+64)</option>
+                                                    <option value="65">SGP (+65)</option>
+                                                    <option value="66">THA (+66)</option>
+
+                                                    <option value="81">JPN (+81)</option>
+                                                    <option value="82">KOR (+82)</option>
+                                                    <option value="84">VNM (+84)</option>
+                                                    <option value="86">CHN (+86)</option>
+
+                                                    <option value="90">TUR (+90)</option>
+                                                    <option value="91" selected>IND (+91)</option>
+                                                    <option value="92">PAK (+92)</option>
+                                                    <option value="93">AFG (+93)</option>
+                                                    <option value="94">LKA (+94)</option>
+                                                    <option value="95">MMR (+95)</option>
+                                                    <option value="98">IRN (+98)</option>
+
+                                                    <option value="971">ARE (+971)</option>
+                                                    <option value="972">ISR (+972)</option>
+                                                    <option value="973">BHR (+973)</option>
+                                                    <option value="974">QAT (+974)</option>
+                                                    <option value="975">BTN (+975)</option>
+                                                    <option value="976">MNG (+976)</option>
+                                                </optgroup>
+                                            </select>
+                                            <input type="tel" class="form-control phone-input error"
+                                                placeholder="Enter phone number" name="contactnum" id="contactnum"
+                                                aria-label="Contact Number"
+                                                style="border-left: none !important; border-top-right-radius: 0px !important;border-bottom-right-radius: 0px !important;border-radius: 0px;"
+                                                aria-invalid="true">
+                                        </div>
+                                        <div class="error-message" id="contactnum"></div>
+                                    </div>
+                                </div>
+
+
+
+                                <!-- Inquiry Details -->
+                                <div class="col-12">
+                                    <label for="inquiry" class="form-label">Inquiry details<span
+                                            class="text-danger">*</span>
+                                        <small class="text-muted d-block fw-light" style="font-size: 10px;">Please
+                                            select the
+                                            area you
+                                            wish to discuss with our
+                                            experts</small>
+                                    </label>
+                                    <select class="form-select custom-select" id="inquiry" name="inquiry" required>
+                                        <option value="" selected disabled>Select an area..</option>
+                                        <option value="product">Product Inquiry</option>
+                                        <option value="partnership">Partnership</option>
+                                        <option value="support">Customer Support</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+
+                                <!-- Message -->
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="4"
+                                        placeholder="Leave us a message..."></textarea>
+                                </div>
+
+                                <!-- Agreement -->
+                                <div class="col-12 d-flex align-items-center">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="invalidCheck">
+                                        <label class="form-check-label">
+                                            You agree to our friendly <a style="text-decoration: underline;"
+                                                href="privacy.html" target="_blank">Privacy
+                                                policy</a>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-outline-danger px-4 submit" id="submit">Send
+                                        Message</button>
+                                    <div id="loadDivC" class="text-center">
+                                        <div class="spinner-border" role="status">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                    </div>
+                                    <div id="success-message"
+                                        style="display: none; color: green; margin-top: 10px;text-align: center;">
+                                        Your application has been submitted successfully!
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="footer-row">
+
+                    <!-- LEFT : BRAND -->
+                    <div class="footer-brand order-lg-1 order-2">
+                        <div class="footer-box">
+                            <img src="images/footer-logo.png" alt="Hetero" class="footer-logo" width="130" height="auto">
+                            <ul class="footer-social">
+                                <li><a href="https://x.com/heteroofficial" target="_blank"><i
+                                            class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/hetero/" target="_blank"><i
+                                            class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.instagram.com/hetero_pharma/" target="_blank"><i
+                                            class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCTvsR0a-IavUR-biF5Lx3kg"
+                                        target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+
+                        </div>
+                        <div class="footer-box">
+                            <ul class="footer-menu footer-menu-2col">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+
+                                <li><a href="career.html">Career</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="plasma.html">Plasma Sciences</a></li>
+                            </ul>
+
+                            <div class="footer-legal">
+                                <a href="privacy.html" target="_blank">Privacy Policy</a>
+                                <a href="cookie.html" target="_blank">Cookie Policy</a>
+                                <p>© 2026 Hetero. All rights reserved</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-col order-lg-2 order-1">
+                        <div class="footer-img">
+                            <img src="images/footer-img.jpg" alt="">
+                        </div>
+
+                        <!-- CENTER : CTA -->
+                        <div class="footer-box-right">
+                            <h3 class="footer-title">
+                                Great innovations<br>
+                                start with great<br>
+                                conversations.
+                            </h3>
+
+                            <p class="footer-text">
+                                Whether you have a product inquiry, need expert guidance,
+                                or want to explore partnership opportunities, our team is here to help.
+                            </p>
+
+                            <a href="contact.html" class="btn-footer">Get in Touch</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- JS Scripts at the end for better performance -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+
+            /* =====================================
+               INITIAL SETUP
+            ===================================== */
+            $('#loadDivC').hide();
+            $("#submit").prop("disabled", true);
+
+
+            /* =====================================
+               COUNTRY CODE → COUNTRY NAME AUTO FILL
+            ===================================== */
+
+            // Mapping based on phone code value
+            var countryMap = {
+                "1": "United States",
+                "7": "Russia",
+                "20": "Egypt",
+                "27": "South Africa",
+                "30": "Greece",
+                "31": "Netherlands",
+                "32": "Belgium",
+                "33": "France",
+                "34": "Spain",
+                "36": "Hungary",
+                "39": "Italy",
+                "40": "Romania",
+                "41": "Switzerland",
+                "43": "Austria",
+                "44": "United Kingdom",
+                "45": "Denmark",
+                "46": "Sweden",
+                "47": "Norway",
+                "48": "Poland",
+                "49": "Germany",
+                "60": "Malaysia",
+                "61": "Australia",
+                "62": "Indonesia",
+                "63": "Philippines",
+                "64": "New Zealand",
+                "65": "Singapore",
+                "66": "Thailand",
+                "81": "Japan",
+                "82": "South Korea",
+                "84": "Vietnam",
+                "86": "China",
+                "90": "Turkey",
+                "91": "India",
+                "92": "Pakistan",
+                "93": "Afghanistan",
+                "94": "Sri Lanka",
+                "95": "Myanmar",
+                "98": "Iran",
+                "971": "United Arab Emirates",
+                "972": "Israel",
+                "973": "Bahrain",
+                "974": "Qatar",
+                "975": "Bhutan",
+                "976": "Mongolia"
+            };
+
+            function updateCountryField() {
+                var code = $("#inputGroupSelect01").val();
+                $("#country").val(countryMap[code] || "");
+            }
+
+            // On dropdown change
+            $("#inputGroupSelect01").on("change", function () {
+                updateCountryField();
+            });
+
+            // On page load
+            updateCountryField();
+
+
+            /* =====================================
+               LETTERS ONLY VALIDATION
+            ===================================== */
+            $.validator.addMethod("lettersonly", function (value, element) {
+                return this.optional(element) || /^[a-zA-Z\s]+$/.test(value);
+            }, "Only letters are allowed");
+
+            // Block numbers while typing
+            $("#firstName, #lastName").on("input", function () {
+                this.value = this.value.replace(/[^a-zA-Z\s]/g, '');
+            });
+
+
+            /* =====================================
+               FORM VALIDATION
+            ===================================== */
+            $("#contact_form").validate({
+
+                rules: {
+                    first_name: {
+                        required: true,
+                        lettersonly: true
+                    },
+                    last_name: {
+                        required: true,
+                        lettersonly: true
+                    },
+                    company: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    contactnum: {
+                        required: true,
+                        digits: true,
+                        minlength: 10,
+                        maxlength: 10
+                    },
+                    inquiry: {
+                        required: true
+                    },
+                    invalidCheck: {
+                        required: true
+                    }
+                },
+
+                messages: {
+                    first_name: {
+                        required: "Please enter your first name",
+                        lettersonly: "First name should contain letters only"
+                    },
+                    last_name: {
+                        required: "Please enter your last name",
+                        lettersonly: "Last name should contain letters only"
+                    },
+                    company: {
+                        required: "Please enter your company name"
+                    },
+                    email: {
+                        required: "Please enter your email address",
+                        email: "Please enter a valid email address"
+                    },
+                    contactnum: {
+                        required: "Please enter your phone number",
+                        digits: "Please enter a valid phone number",
+                        minlength: "Phone number must be 10 digits",
+                        maxlength: "Phone number must be 10 digits"
+                    },
+                    inquiry: {
+                        required: "Please select the area"
+                    },
+                    invalidCheck: {
+                        required: "You must agree to the privacy policy"
+                    }
+                },
+
+                errorPlacement: function (error, element) {
+                    if (element.attr("name") == "contactnum") {
+                        error.insertAfter(element.closest(".phone-input-group"));
+                    } else {
+                        error.insertAfter(element);
+                    }
+                },
+
+                submitHandler: function (form, event) {
+                    event.preventDefault();
+
+                    $('#loadDivC').show();
+                    $("#submit").prop("disabled", true);
+
+                    var form_data = new FormData(form);
+
+                    $.ajax({
+                        dataType: "JSON",
+                        type: "POST",
+                        url: 'https://forms.lexyslabs.com/api/V1/plasma-hetero/contactform',
+                        crossDomain: true,
+                        data: form_data,
+                        processData: false,
+                        contentType: false,
+
+                        success: function (response) {
+
+                            if (response.status === true) {
+
+                                $('#success-message')
+                                    .text('Your enquiry form has been submitted successfully!')
+                                    .fadeIn();
+
+                                $('#contact_form')[0].reset();
+
+                                // Disable button again after reset
+                                $("#submit").prop("disabled", true);
+
+                                updateCountryField();
+                                $('#loadDivC').hide();
+
+                                setTimeout(function () {
+                                    $('#success-message').fadeOut();
+                                }, 10000);
+                            } else {
+                                $('#loadDivC').hide();
+                                alert("Something went wrong. Please try again.");
+                            }
+                        },
+
+                        error: function () {
+                            $('#loadDivC').hide();
+                            alert("Server error. Please try again later.");
+                        }
+                    });
+                }
+            });
+
+
+            /* =====================================
+               CHECKBOX ENABLE / DISABLE BUTTON
+            ===================================== */
+            $("#invalidCheck").on("change", function () {
+                $("#submit").prop("disabled", !$(this).is(":checked"));
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
