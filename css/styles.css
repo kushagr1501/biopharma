@@ -627,20 +627,20 @@ section {
 }
 
 .bg-manufacturing {
-    background-image: url('../images/pillar-facility-3.jpg');
+    background-image: url('../images/pillar-facility-3.png');
 }
 
 .bg-quality {
-    background-image: url('../images/pillar-facility-2.jpg');
+    background-image: url('../images/pillar-facility-2.png');
 }
 
 .bg-technology {
-    background-image: url('../images/pillar-facility-1.jpg');
+    background-image: url('../images/pillar-facility-1.png');
     background-position: center;
 }
 
 .bg-network {
-    background-image: url('../images/pillar-facility-4.jpg');
+    background-image: url('../images/pillar-facility-4.png');
 }
 
 /* Overlay Content */
